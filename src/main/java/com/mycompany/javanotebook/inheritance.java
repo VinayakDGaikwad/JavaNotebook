@@ -1,43 +1,22 @@
-package com.mycompany.javanotebook;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.mavenproject1;
 
-class publication{
-    public String title;
-    private float price;
-    private int quntity;
-    
-    public void setPrice(float price){
-        this.price = price;
-    }
-    
-    public void setQuantity(int quantity){
-        this.quntity = quantity;
-    }
-    
-    public float getPrice(){
-        return this.price;
-    }
-    
-    public int getQuantity(){
-        return this.quntity;
-    }
-}
+/**
+ *
+ * @author vdg
+ */
+public class  
 
-class book extends publication{
-    String Author;
-}
+    2 {
 
-class magzine extends publication{
-    
-}
-
-
-public class inheritance {
-    public static void main(String[] args) {
-        book B1 = new book();
-        B1.title = "The Immortal of Mehula";
-        B1.Author = "Amish";
-        B1.setPrice(200);
-        System.out.print(B1.getPrice());
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        // TODO code application logic here
     }
-    
 }
