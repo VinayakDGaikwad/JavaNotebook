@@ -1,4 +1,4 @@
-package com.mycompany.mavenproject1;
+package com.mycompany.javanotebook;
 
 class employee{
     String name;

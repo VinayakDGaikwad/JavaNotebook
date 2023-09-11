@@ -43,8 +43,6 @@ public class dynamic_binding {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        shape s1 = new shape();
-        
         
     }
 
