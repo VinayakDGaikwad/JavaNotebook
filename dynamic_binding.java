@@ -1,5 +1,3 @@
-package com.mycompany.javanotebook;
-
 import java.util.Scanner;
 
 public class dynamic_binding {

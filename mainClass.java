@@ -1,5 +1,3 @@
-package com.mycompany.javanotebook;
-
 class employee{
     String name;
     String email;

@@ -1,4 +1,3 @@
-package com.mycompany.javanotebook;
 
 import java.util.Scanner;
 

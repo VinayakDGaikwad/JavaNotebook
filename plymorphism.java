@@ -1,5 +1,3 @@
-package com.mycompany.javanotebook;
-
 class employe{
     public String name;
     public float salary;

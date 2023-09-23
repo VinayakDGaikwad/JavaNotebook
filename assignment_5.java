@@ -1,5 +1,3 @@
-package com.mycompany.javanotebook;
-
 interface vehicle {
     void changeGear(int a);
     void speedUP(int a);
