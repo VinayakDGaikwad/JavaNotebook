@@ -8,10 +8,11 @@ public class dynamic_binding {
         double width;
 
         void input() {
-            Scanner ss = new Scanner(System.in);
-            System.out.print("entre height:");
-            height = ss.nextDouble();
-            width = ss.nextDouble();
+            try (Scanner ss = new Scanner(System.in)) {
+                System.out.print("entre height:");
+                height = ss.nextDouble();
+                width = ss.nextDouble();
+            }
         }
 
         abstract void compute_area();
@@ -40,8 +41,7 @@ public class dynamic_binding {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+         
     }
 
 }

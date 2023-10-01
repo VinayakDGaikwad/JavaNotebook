@@ -53,8 +53,7 @@ public class assignment_5 {
 
 
     public static void main(String[] args) {
-        // TODO code application logic here
-   
+     
         vehicle v;    //reference vehicle
         v = new bike();
         v.changeGear(2);

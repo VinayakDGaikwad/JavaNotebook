@@ -7,11 +7,12 @@ import java.util.Scanner;
     double width;
 
     void input() {
-        Scanner ss = new Scanner(System.in);
-        System.out.print("entre height:");
-        height = ss.nextDouble();
-        System.out.print("entre width:");
-        width = ss.nextDouble();
+        try (Scanner ss = new Scanner(System.in)) {
+            System.out.print("entre height:");
+            height = ss.nextDouble();
+            System.out.print("entre width:");
+            width = ss.nextDouble();
+        }
     }
 
     abstract void compute_area();
@@ -39,7 +40,6 @@ import java.util.Scanner;
 public class assignment_no4 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
         shape S;
         
         rectangle R = new rectangle();

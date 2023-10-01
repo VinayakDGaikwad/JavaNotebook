@@ -52,7 +52,7 @@ class assistant_project_maneger extends employee{
 public class mainClass {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+    
     }
     
 }

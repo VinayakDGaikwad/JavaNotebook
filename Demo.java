@@ -1,7 +1,6 @@
 public class Demo {
 	public static void main(String[] args) {
 		System.out.println("Good morning!");
-		Demo1 obj = new Demo1();
 	}
 }
 class Demo1{
